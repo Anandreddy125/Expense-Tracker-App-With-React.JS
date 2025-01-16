@@ -1,19 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: expense-tracker
+  name: anrs
+  labels:
+    app: anrs
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
-      app: expense-tracker
+      app: anrs
   template:
     metadata:
       labels:
-        app: expense-tracker
+        app: anrs
     spec:
       containers:
-      - name: expense-tracker
-        image: anrs125/reddy:latest
+      - name: anrs
+        image: anrs125/nidhin:latest
         ports:
         - containerPort: 80
