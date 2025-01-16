@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: expense-tracker-service
+  name: anrs
   labels:
-    app: expense-tracker-service
+    app: anrs
 spec:
   type: NodePort
   ports:
@@ -11,5 +11,4 @@ spec:
     targetPort: 80
     nodePort: 30007
   selector:
-    app: expense-tracker-service
-
+    app: anrs
