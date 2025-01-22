@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: anrs
-        image: anrs125/sagar:latest
+        image: anrs125/master:latest
         ports:
         - containerPort: 80
