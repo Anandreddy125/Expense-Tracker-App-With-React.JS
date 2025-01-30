@@ -5,7 +5,7 @@ metadata:
   labels:
     app: anrs
 spec:
-  replicas: 12
+  replicas: 6
   selector:
     matchLabels:
       app: anrs
