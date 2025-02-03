@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: anrs
-        image: anrs125/webhook:v1.26
+        image: anrs125/webhook:v1.30
         ports:
         - containerPort: 80
