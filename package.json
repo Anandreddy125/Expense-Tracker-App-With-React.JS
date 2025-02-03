@@ -1,5 +1,5 @@
 {
-  "name": "expense-master",
+  "name": "expense-slave",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
