@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: anrs
-        image: anrs125/anrs125/testing:v1.9
+        image: anrs125/testing:v1.9
         ports:
         - containerPort: 80
